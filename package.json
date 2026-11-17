@@ -1,0 +1,42 @@
+{
+  "name": "dsh-strata-preset",
+  "version": "2.2.0",
+  "description": "Strata (层积) agent preset: the loop report-image -> assert-kernel -> pre-register criterion -> act -> return with a new image, with six failure modes, an update gate, and one-way pairs. Config-only bundle: declares one @deepseek-ai/dsh-agent-preset row and mounts a full per-agent tool surface.",
+  "type": "module",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "agent-preset",
+    "preset",
+    "epistemology"
+  ],
+  "homepage": "https://github.com/world-eternity/dsh-strata-preset#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/world-eternity/dsh-strata-preset.git"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
