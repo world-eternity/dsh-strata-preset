@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-label="Strata loop: report the image, assert the kernel, pre-register the criterion, act, return with a new image">
+  <rect width="1200" height="560" fill="#0b1220"/>
+  <text x="600" y="64" fill="#e2e8f0" font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="30" font-weight="600" text-anchor="middle">Strata（层积）· 一圈任务就是一圈回路</text>
+
+  <g font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="20" text-anchor="middle">
+    <g fill="#0f172a" stroke="#7dd3fc" stroke-width="2">
+      <rect x="40" y="150" width="200" height="86" rx="12"/>
+      <rect x="280" y="150" width="200" height="86" rx="12"/>
+      <rect x="520" y="150" width="200" height="86" rx="12"/>
+      <rect x="760" y="150" width="200" height="86" rx="12"/>
+      <rect x="1000" y="150" width="160" height="86" rx="12"/>
+    </g>
+    <g fill="#e2e8f0">
+      <text x="140" y="189">报像</text>
+      <text x="140" y="217" fill="#94a3b8" font-size="15">report the image</text>
+      <text x="380" y="189">断言核</text>
+      <text x="380" y="217" fill="#94a3b8" font-size="15">assert the kernel</text>
+      <text x="620" y="189">预登记判据</text>
+      <text x="620" y="217" fill="#94a3b8" font-size="15">pre-register the criterion</text>
+      <text x="860" y="189">行动</text>
+      <text x="860" y="217" fill="#94a3b8" font-size="15">act</text>
+      <text x="1080" y="189">用新像回来</text>
+      <text x="1080" y="217" fill="#94a3b8" font-size="15">return, new image</text>
+    </g>
+  </g>
+
+  <g stroke="#38bdf8" stroke-width="2.5" fill="none" marker-end="url(#a)">
+    <defs>
+      <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0 0 L10 5 L0 10 z" fill="#38bdf8"/>
+      </marker>
+    </defs>
+    <path d="M240 193 H276"/>
+    <path d="M480 193 H516"/>
+    <path d="M720 193 H756"/>
+    <path d="M960 193 H996"/>
+    <path d="M1160 193 H1180 V60 H600" stroke="#f59e0b" marker-end="url(#b)"/>
+    <defs>
+      <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0 0 L10 5 L0 10 z" fill="#f59e0b"/>
+      </marker>
+    </defs>
+  </g>
+
+  <g font-family="Segoe UI, Noto Sans SC, sans-serif" font-size="17" fill="#cbd5e1">
+    <text x="120" y="330">判定只在把核施加到世界上的那一刻出现；</text>
+    <text x="120" y="362">核没有坐标，所以预登记必须落在具体可观测量上。</text>
+    <text x="120" y="412" fill="#94a3b8">换核 → 位移；位移要在换核之前写定，否则只能算观察。</text>
+    <text x="120" y="452" fill="#94a3b8">六种失败：不全 · 失真 · 不相容 · 不牢 · 共模 · 选偏。</text>
+    <text x="120" y="492" fill="#94a3b8">更新闸门：先写干预作用在哪一侧（装置侧／对象侧），再归类。</text>
+  </g>
+</svg>
