@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Strata",
+    "zh": "Strata 模式"
+  },
+  "description": {
+    "en": "An epistemic-discipline agent preset for DeepSeek Harness.",
+    "zh": "给 DeepSeek Harness 的认知纪律模式。"
+  },
+  "metadata": {
+    "categories": {
+      "presets": {
+        "title": {
+          "en": "Agent presets",
+          "zh": "Agent 模式"
+        }
+      }
+    },
+    "labels": {
+      "preset": {
+        "title": {
+          "en": "Preset",
+          "zh": "模式"
+        }
+      },
+      "config-only": {
+        "title": {
+          "en": "Config only",
+          "zh": "纯配置"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-strata-preset",
+      "title": {
+        "en": "Strata",
+        "zh": "Strata 层积"
+      },
+      "description": {
+        "en": "Report the image, assert the kernel, pre-register the criterion, act, come back with a new image: six failure modes, an update gate, and one-way pairs, as an action discipline.",
+        "zh": "报像 → 断言核 → 预登记判据 → 行动 → 用新像回来：六种失败、更新闸门、单向对，落成可被执行或被违反的行动纪律。"
+      },
+      "icon": "icons/strata.svg",
+      "author": "world-eternity",
+      "homepage": "https://github.com/world-eternity/dsh-strata-preset#readme",
+      "repository": {
+        "url": "https://github.com/world-eternity/dsh-strata-preset"
+      },
+      "metadata": {
+        "category": "presets",
+        "labels": [
+          "preset",
+          "config-only"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.2.0",
+          "publishTimestamp": 1794888201,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}
