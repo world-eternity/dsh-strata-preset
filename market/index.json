@@ -61,7 +61,9 @@
           "version": "2.2.0",
           "publishTimestamp": 1794888201,
           "source": {
-            "type": "npm"
+            "type": "git",
+            "url": "https://github.com/world-eternity/dsh-strata-preset",
+            "commit": "2f06ddf286ea365ba1acd469bbda2995ed8fc0c1"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3"
